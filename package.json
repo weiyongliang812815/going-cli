@@ -1,0 +1,29 @@
+{
+  "name": "going-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "going-cli": "./bin/goingCli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "weiyong",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "clear": "^0.1.0",
+    "commander": "^5.1.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.4.0",
+    "handlebars": "^4.7.6",
+    "open": "^7.0.4",
+    "ora": "^4.0.4",
+    "watch": "^1.0.2"
+  },
+  "devDependencies": {
+    "fs-extra": "^9.0.1"
+  }
+}
